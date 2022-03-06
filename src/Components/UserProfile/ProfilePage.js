@@ -1,25 +1,38 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'react-router-dom'
 
 import Profile from '../Profile'
 import Links from '../Links'
 import Milestones from '../Milestones'
 
 function ProfilePage({ profile, username }) {
+  const [links, setLinks] = useState([])
+  const [milestones, setMilestones] = useState([])
+
+  useEffect(() => {
+    const newLinks = profile.links?.map((link) => ({
+      ...link,
+      icon: link.icon?.toLowerCase(),
+    }))
+    setLinks(newLinks)
+
+    const newMilestones = profile.milestones?.map((milestone) => ({
+      ...milestone,
+      icon: milestone.icon?.toLowerCase(),
+    }))
+    setMilestones(newMilestones)
+  }, [profile])
+
   return (
-    <main>
+    <>
       {
         <>
-          <Link to="/" aria-label="Go back to Home">
-            <i className="pi pi-arrow-left"></i>
-          </Link>
           <Profile profile={profile} username={username} />
-          <Links links={profile.links} />
+          <Links links={links} />
         </>
       }
-      {profile.milestones && <Milestones milestones={profile.milestones} />}
-    </main>
+      {profile.milestones && <Milestones milestones={milestones} />}
+    </>
   )
 }
 

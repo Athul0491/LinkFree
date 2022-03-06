@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { ProgressBar } from 'primereact/progressbar'
 
 import ProfilePage from './ProfilePage'
 import Placeholder from './Placeholder'
 import ErrorPage from './ErrorPage'
+import Navbar from '../Navbar'
+import GetIcons from '../Icons/GetIcons'
 
 function User() {
   const [showProgress, setShowProgress] = useState(true)
@@ -25,14 +27,23 @@ function User() {
   }, [username])
 
   return (
-    <main>
-      {showProgress && <ProgressBar mode="indeterminate" />}
-      {skeleton && <Placeholder />}
-      {error && <ErrorPage />}
-      {!error && !skeleton && (
-        <ProfilePage profile={profile} username={username} />
-      )}
-    </main>
+    <>
+      <Navbar
+        start={
+          <Link to="/" aria-label="Go back to Home">
+            <GetIcons iconName="arrowLeft" size={20} />
+          </Link>
+        }
+      />
+      <main>
+        {showProgress && <ProgressBar mode="indeterminate" />}
+        {skeleton && <Placeholder />}
+        {error && <ErrorPage />}
+        {!error && !skeleton && (
+          <ProfilePage profile={profile} username={username} />
+        )}
+      </main>
+    </>
   )
 }
 

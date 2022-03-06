@@ -1,45 +1,45 @@
-## [0.42.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.0...v0.42.1) (2021-10-26)
+## [0.62.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.8...v0.62.9) (2022-02-20)
 
 
 ### Bug Fixes
 
-* Inconsistent gaps on homepage ([#609](https://github.com/EddieHubCommunity/LinkFree/issues/609)) ([a6bc041](https://github.com/EddieHubCommunity/LinkFree/commit/a6bc041fb3c67b90280a03be41cdf28edbd5ef4d))
+* kendall profile removed ([#1137](https://github.com/EddieHubCommunity/LinkFree/issues/1137)) ([36617d7](https://github.com/EddieHubCommunity/LinkFree/commit/36617d7842252290d055e05e8c9346c9288a278d))
 
 
 
-# [0.42.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.3...v0.42.0) (2021-10-26)
-
-
-### Features
-
-* replace native alert with toast component ([#533](https://github.com/EddieHubCommunity/LinkFree/issues/533)) ([f68a562](https://github.com/EddieHubCommunity/LinkFree/commit/f68a5627465575ee0f75ed9938c9c8e4a208d887))
-
-
-
-## [0.41.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.2...v0.41.3) (2021-10-26)
+## [0.62.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.7...v0.62.8) (2022-02-13)
 
 
 ### Bug Fixes
 
-* **data:** add Vedant-Pandya.json ([#608](https://github.com/EddieHubCommunity/LinkFree/issues/608)) ([5eae1fd](https://github.com/EddieHubCommunity/LinkFree/commit/5eae1fda74debc724a19c1c2c78c6fd593d737f5))
+* icon names ([#1120](https://github.com/EddieHubCommunity/LinkFree/issues/1120)) ([c7f72e0](https://github.com/EddieHubCommunity/LinkFree/commit/c7f72e09fd963d7aa9c0864f67b0824fc2b7070d))
 
 
 
-## [0.41.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.1...v0.41.2) (2021-10-26)
-
-
-### Bug Fixes
-
-* role and rel attributes in Milestone ([#526](https://github.com/EddieHubCommunity/LinkFree/issues/526)) ([c799cf7](https://github.com/EddieHubCommunity/LinkFree/commit/c799cf7e9929eec7fa95325028d092cce833a893))
-
-
-
-## [0.41.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.0...v0.41.1) (2021-10-25)
+## [0.62.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.6...v0.62.7) (2022-02-13)
 
 
 ### Bug Fixes
 
-* button overflow on small screens ([#594](https://github.com/EddieHubCommunity/LinkFree/issues/594)) ([f0976b6](https://github.com/EddieHubCommunity/LinkFree/commit/f0976b6c9bfbe2a82ec9cea17353a93fbbef32dc))
+* black GitHub icon ([#1116](https://github.com/EddieHubCommunity/LinkFree/issues/1116)) ([6d0e296](https://github.com/EddieHubCommunity/LinkFree/commit/6d0e29641a191e8974ac0d290b34250568149d2b))
+
+
+
+## [0.62.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.5...v0.62.6) (2022-02-10)
+
+
+### Bug Fixes
+
+* pfp ([#1110](https://github.com/EddieHubCommunity/LinkFree/issues/1110)) ([33d6943](https://github.com/EddieHubCommunity/LinkFree/commit/33d6943f8b07b0fcb9f5d716e2a4ec6766bb8180))
+
+
+
+## [0.62.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.4...v0.62.5) (2022-02-10)
+
+
+### Bug Fixes
+
+* add dark color to github icon in footer ([#1081](https://github.com/EddieHubCommunity/LinkFree/issues/1081)) ([c863f5f](https://github.com/EddieHubCommunity/LinkFree/commit/c863f5f4352cc8f0c2fb16ca80ea708083b4f72d))
 
 
 
